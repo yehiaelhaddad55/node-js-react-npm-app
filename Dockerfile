@@ -3,7 +3,7 @@ FROM nginx:latest
 
 WORKDIR /usr/app
 
-COPY ./build/* /usr/app
+COPY ./build/ /usr/app
 
 COPY ./build/index.html /usr/share/nginx/html
 
